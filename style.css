@@ -1,0 +1,30 @@
+body {  
+    font-family: Arial, sans-serif;  
+    max-width: 400px;  
+    margin: auto;  
+    padding: 20px;  
+    border: 1px solid #ccc;  
+    border-radius: 10px;  
+    box-shadow: 2px 2px 12px #aaa;  
+}  
+input[type="number"], input[type="text"] {  
+    width: 100%;  
+    padding: 10px;  
+    margin: 10px 0;  
+}  
+
+#message {
+color: red;
+}
+
+button {  
+    padding: 10px;  
+    background-color: #28a745;  
+    color: white;  
+    border: none;  
+    cursor: pointer;  
+}  
+button.disabled {  
+    background-color: grey;  
+    cursor: not-allowed;  
+}  
